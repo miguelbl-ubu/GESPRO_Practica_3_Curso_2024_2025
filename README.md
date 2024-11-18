@@ -1,2 +1,3 @@
 Nombre de los compañeros
-Miguel Blanco
+Diego Arbeloa Perez
+Diego Guerrero Monzon
