@@ -1,2 +1,3 @@
 Nombre de los compañeros
-Miguel Blanco
+Pablo Martinez Ibañez
+Juan Carlos Gallego Garcia
