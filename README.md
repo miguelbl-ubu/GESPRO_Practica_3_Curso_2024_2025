@@ -1,2 +1,2 @@
 Nombre de los compañeros
-luis 
+Alejandro Diez Bermejo
