@@ -1,2 +1,2 @@
-Nombre de los compañeros
-luis 
+Nombre de los compañeros:
+Rodrigo Ortiz Esteban
