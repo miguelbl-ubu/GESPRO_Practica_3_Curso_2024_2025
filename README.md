@@ -1,2 +1,4 @@
 Nombre de los compañeros
-mario
+Mario Remacha
+Álvaro Ayllón
+Rodrigo Ortiz
