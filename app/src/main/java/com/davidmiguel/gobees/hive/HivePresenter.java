@@ -28,8 +28,6 @@ import com.davidmiguel.gobees.data.source.GoBeesDataSource;
 import com.davidmiguel.gobees.data.source.repository.GoBeesRepository;
 import com.davidmiguel.gobees.monitoring.MonitoringActivity;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * Listens to user actions from the UI HiveRecordingsFragment, retrieves the data and updates the
  * UI as required.
@@ -39,7 +37,6 @@ class HivePresenter implements HiveContract.Presenter {
     private GoBeesRepository goBeesRepository;
     private HiveContract.HiveRecordingsView hiveRecordingsView;
     private HiveContract.HiveInfoView hiveInfoView;
-    private AtomicInteger ready;
 
     /**
      * Force update the first time.
@@ -59,7 +56,6 @@ class HivePresenter implements HiveContract.Presenter {
         this.hiveInfoView.setPresenter(this);
         this.apiaryId = apiaryId;
         this.hiveId = hiveId;
-        this.ready = new AtomicInteger(0);
     }
 
     @Override
@@ -185,9 +181,6 @@ class HivePresenter implements HiveContract.Presenter {
 
     @Override
     public void start() {
-        int num = ready.incrementAndGet();
-        if(num >= 2) {
-            loadData(false);
-        }
+        loadData(false);
     }
 }
