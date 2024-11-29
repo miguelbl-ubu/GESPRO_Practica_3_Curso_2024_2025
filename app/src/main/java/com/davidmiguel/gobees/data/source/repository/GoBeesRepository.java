@@ -251,7 +251,12 @@ public class GoBeesRepository implements GoBeesDataSource {
         checkNotNull(callback);
         // Save hive
         goBeesDataSource.saveHive(apiaryId, hive, callback);
-        refreshHives(apiaryId);
+        // Do in memory cache update to keep the app UI up to date
+        if (cachedApiaries == null) {
+            cachedApiaries = new LinkedHashMap<>();
+        }
+        // TODO update cache
+//        cachedApiaries.put(apiary.getId(), apiary);
     }
 
     @Override
@@ -259,7 +264,6 @@ public class GoBeesRepository implements GoBeesDataSource {
         checkNotNull(callback);
         // Delete hive
         goBeesDataSource.deleteHive(hiveId, callback);
-        refreshHives(-1);
     }
 
     @Override
@@ -379,7 +383,7 @@ public class GoBeesRepository implements GoBeesDataSource {
 
     @Override
     public void refreshRecordings(long hiveId) {
-        // No action needed
+        // TODO
     }
 
     /**

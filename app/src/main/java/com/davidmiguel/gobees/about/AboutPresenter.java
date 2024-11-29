@@ -71,7 +71,6 @@ class AboutPresenter implements AboutContract.Presenter {
             case MIT:
                 view.openLicence(license.toString(), R.string.mit);
                 break;
-            default:
         }
     }
 

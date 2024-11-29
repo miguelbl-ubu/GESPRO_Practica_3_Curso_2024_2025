@@ -74,12 +74,6 @@ public class HiveInfoFragment extends Fragment
     }
 
     @Override
-    public void onResume() {
-        super.onResume();
-        presenter.start();
-    }
-
-    @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
         if (isVisibleToUser && isResumed()) {

@@ -57,22 +57,22 @@ interface MonitoringContract {
         void setNumBees(int numBees);
 
         /**
-         * Starts monitoring service.
+         * Starts recording service.
          *
          * @param ms monitoring settings.
          */
-        void startMonitoringService(MonitoringSettings ms);
+        void startRecordingService(MonitoringSettings ms);
 
         /**
-         * Stops monitoring service.
+         * Stop recording service.
          */
-        void stopMonitoringService();
+        void stopRecordingService();
 
 
         /**
-         * Binds to the monitoring service.
+         * Binds to the recording service.
          */
-        void bindMonitoringService();
+        void bindRecordingService();
 
         /**
          * Hides the camera preview.
@@ -129,14 +129,14 @@ interface MonitoringContract {
         void openSettings();
 
         /**
-         * Starts monitoring.
+         * Starts the monitoring.
          */
         void startMonitoring();
 
         /**
-         * Stops monitoring.
+         * Stop recording.
          */
-        void stopMonitoring();
+        void stopRecording();
 
         /**
          * Closes settings view.
