@@ -28,7 +28,6 @@ import com.davidmiguel.gobees.data.source.GoBeesDataSource;
 import com.davidmiguel.gobees.data.source.repository.GoBeesRepository;
 
 import java.util.Date;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Listens to user actions from the UI ApiaryHivesFragment, retrieves the data and updates the
@@ -46,7 +45,6 @@ class ApiaryPresenter implements ApiaryContract.Presenter {
     private boolean firstLoad = true;
     private long apiaryId;
     private Apiary apiary;
-    private AtomicInteger ready;
 
     ApiaryPresenter(GoBeesRepository goBeesRepository,
                     ApiaryContract.ApiaryHivesView apiaryHivesView,
@@ -57,14 +55,12 @@ class ApiaryPresenter implements ApiaryContract.Presenter {
         this.apiaryInfoView = apiaryInfoView;
         apiaryInfoView.setPresenter(this);
         this.apiaryId = apiaryId;
-        this.ready = new AtomicInteger(0);
     }
 
     @Override
     public void result(int requestCode, int resultCode) {
         // If a hive was successfully added, show snackbar
-        if (AddEditApiaryActivity.REQUEST_ADD_APIARY == requestCode
-                && Activity.RESULT_OK == resultCode) {
+        if (AddEditApiaryActivity.REQUEST_ADD_APIARY == requestCode && Activity.RESULT_OK == resultCode) {
             apiaryHivesView.showSuccessfullySavedMessage();
         }
     }
@@ -169,10 +165,7 @@ class ApiaryPresenter implements ApiaryContract.Presenter {
 
     @Override
     public void start() {
-        int num = ready.incrementAndGet();
-        if(num >= 2) {
-            loadData(false);
-        }
+        loadData(false);
     }
 
     /**

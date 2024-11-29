@@ -152,11 +152,6 @@ class ApiariesAdapter extends RecyclerView.Adapter<ApiariesAdapter.ApiaryViewHol
                 // Show
                 weatherIcon.setVisibility(View.VISIBLE);
                 temp.setVisibility(View.VISIBLE);
-            } else {
-                // Hide
-                weatherIcon.setVisibility(View.GONE);
-                temp.setVisibility(View.GONE);
-                temp.setVisibility(View.GONE);
             }
         }
 
