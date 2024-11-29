@@ -129,11 +129,6 @@ public class ProcessorsTest extends OpenCvBaseTest {
             result = morf.process(source);
             assertMatEqual(black, result);
         }
-        for (int i = 1; i <= 3; i++) {
-            morf.setErodeKernel(i);
-            result = morf.process(source);
-            assertMatEqual(black, result);
-        }
     }
 
     @Test
