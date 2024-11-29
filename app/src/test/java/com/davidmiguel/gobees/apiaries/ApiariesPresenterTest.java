@@ -67,7 +67,7 @@ public class ApiariesPresenterTest {
     private ArgumentCaptor<GoBeesDataSource.TaskCallback> taskCallbackArgumentCaptor;
 
     @Before
-    public void setupMocksAndView() {
+    public void setupApiariesPresenter() {
         // To inject the mocks in the test the initMocks method needs to be called
         MockitoAnnotations.initMocks(this);
 
@@ -143,7 +143,7 @@ public class ApiariesPresenterTest {
     }
 
     @Test
-    public void onAddEditApiary_openAddEditAct() {
+    public void onEditApiary_openEditAct() {
         apiariesPresenter.addEditApiary(1);
         // Open act
         verify(apiariesView).showAddEditApiary(eq(1L));
