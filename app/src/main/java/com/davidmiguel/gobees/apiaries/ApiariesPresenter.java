@@ -125,7 +125,7 @@ class ApiariesPresenter implements ApiariesContract.LoadDataPresenter {
                     return;
                 }
                 // Refresh recordings
-                loadData(true);
+                loadData(false);
                 // Show success message
                 view.showSuccessfullyDeletedMessage();
             }

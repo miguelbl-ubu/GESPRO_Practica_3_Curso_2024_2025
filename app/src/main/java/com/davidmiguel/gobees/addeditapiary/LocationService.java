@@ -104,6 +104,8 @@ class LocationService {
                 .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
                 .setInterval(UPDATE_INTERVAL)
                 .setFastestInterval(FASTEST_INTERVAL);
+        // TODO check if gps is on and if not show a dialog to the user
+        // TODO (now if it's off, we just use the network signal)
         LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient,
                 locationRequest, callback);
     }
