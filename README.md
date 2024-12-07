@@ -21,3 +21,32 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+-Rodrigo Portugal Hortigüela y Adrián Carrera Calzada-
+
+Guía de cómo se realiza toda la secuencia de acciones desde que nos posicionamos en un nuevo commit del repositorio Go Bees hasta que pasa a estar visible en nuestra rama master local
+
+## 1º paso: Nos posicionaremos en el commit para poder subir cambios, tener MASTER al día y estar posicionado en master 
+![image](https://github.com/user-attachments/assets/c80916c5-3d47-45de-833e-e333a3bd277f)
+
+## 2º paso: Crearemos una rama a partir de una tarea que tenemos que crear con el nombre coincidente con el repositorio Go Bees
+![image](https://github.com/user-attachments/assets/448b0264-f1ca-411c-9221-b4ff6421cd95)
+![image](https://github.com/user-attachments/assets/ead9e993-584f-4ff9-800d-937035018f24)
+
+
+## 3º paso: Nos posicionaremos en la rama en nuestro ordenador local dando doble clic sobre ella
+![image](https://github.com/user-attachments/assets/72f57c6e-25e7-4a5e-990d-8d3a414809e9)
+
+## 4º paso: En nuestro ordenador, nos dirigiremos a la dirección donde tengamos la carpeta de Go bees, y copiaremos todos los archivos de esa carpeta (excepto el .git) para pegarlos en la carpeta de nuestra práctica
+![image](https://github.com/user-attachments/assets/bc27f811-2c0a-40eb-aeb2-71afada494a6)
+![image](https://github.com/user-attachments/assets/355835be-e735-4c9c-8627-616ed7f6e682)
+
+## 5º paso: 
+![image](https://github.com/user-attachments/assets/71aa89d9-7eea-45d2-b540-985b20c82d3a)
+![image](https://github.com/user-attachments/assets/8ea0eddd-98c4-4310-9d91-5da52b172762)
+![image](https://github.com/user-attachments/assets/f667eadd-7055-4b12-9d72-7497a4acfd5e)
+
+
+
+
+## 6 paso: 
