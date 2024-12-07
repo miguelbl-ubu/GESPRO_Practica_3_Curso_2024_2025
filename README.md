@@ -99,5 +99,20 @@ Y veremos como aparece en estado Merged
 
 ## 7º paso
 
+Actualizaremos el master en local, para ello hacemos un fetch all
+
+![image](https://github.com/user-attachments/assets/c0f73664-3552-4d82-8ae0-1c12341a2e40)
+
+Después un pull
+
+![image](https://github.com/user-attachments/assets/09ad2e16-7878-4a91-af69-ac82229a89b7)
+
+Y por último un ush
+
+![image](https://github.com/user-attachments/assets/6aca0fa0-68ac-47b5-bd00-b1d16505a1c0)
+
+Este debería ser el resultado
+
+![image](https://github.com/user-attachments/assets/0be7bf01-8f22-42b4-a92a-ac25f36e445a)
 
 
