@@ -107,7 +107,7 @@ Después un pull
 
 ![image](https://github.com/user-attachments/assets/09ad2e16-7878-4a91-af69-ac82229a89b7)
 
-Y por último un ush
+Y por último un push
 
 ![image](https://github.com/user-attachments/assets/6aca0fa0-68ac-47b5-bd00-b1d16505a1c0)
 
