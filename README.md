@@ -12,7 +12,18 @@ Preguntas
     * tener master al dia y estar posicionado en master
     * Crear rama a partir de tarea con nombre = a Gobees
     * posicionarse en rama en local
+    --> foto 1
+    Una vez creada la rama en el github, hacemos fetch en gitkraken para ver la rama, nos aparecerá en el cuadro de "remote",
+    tendremos que pulsar dos veces sobre esa rama y nos aparecerá en el cuadro de local, ahí es cuando tendremos la rama en el
+    repositorio local y podremos subir los cambios.
+
     * Añadir cambios de carpeta gobees a la carpeta P3
+
     * Git Stage all * Git commit
+    --> foto 2
+    Cuando guardemos los cambios en algún fichero del proyecto en atom, dicho fichero aparecerá	sobresaltado en naranja, esto querrá decir
+    que no se ha sincronizado con el repositorio local, para ellos vamos a gitkraken y hacemos fetch para comprobar si ha habido cambios.
+    Nos saldrá a la derecha que ha habido cambios entonces añadimos los cambios y hacemos el commit.
     * Create PRQ (de nuestro proyecto a nuestro proyecto) master
+
     * Merge PRQ y actualizar Master en local
