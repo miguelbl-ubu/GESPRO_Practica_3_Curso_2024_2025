@@ -20,7 +20,10 @@ Preguntas
     * Añadir cambios de carpeta gobees a la carpeta P3
 
     * Git Stage all * Git commit
-    
+    --> foto 2
+    Cuando guardemos los cambios en algún fichero del proyecto en atom, dicho fichero aparecerá	sobresaltado en naranja, esto querrá decir
+    que no se ha sincronizado con el repositorio local, para ellos vamos a gitkraken y hacemos fetch para comprobar si ha habido cambios.
+    Nos saldrá a la derecha que ha habido cambios entonces añadimos los cambios y hacemos el commit.
     * Create PRQ (de nuestro proyecto a nuestro proyecto) master
 
     * Merge PRQ y actualizar Master en local
