@@ -25,5 +25,7 @@ Preguntas
     que no se ha sincronizado con el repositorio local, para ellos vamos a gitkraken y hacemos fetch para comprobar si ha habido cambios.
     Nos saldrá a la derecha que ha habido cambios entonces añadimos los cambios y hacemos el commit.
     * Create PRQ (de nuestro proyecto a nuestro proyecto) master
-
+    Cuando ya tienes todos los commits de la rama hechos, subes todos los cambios de tu rama a github y alli creas la pull request para sincronizar tu rama con la rama master, estonces la pull request necesita la aprovacion de otras personas,y se debe de confirmar por al menos un miembro.
     * Merge PRQ y actualizar Master en local
+    Una vez creada la pull request, otro miembro del equipo la confirmara, por lo que se sincronizara automaticamente la rama creada y la rama master. Para actualizar la master en local primero se hace un fetch, y luego pulsas pull para traer los cambios del repositorio remoto al local.
+    IMPORTANTE: Cuando hagas el pull para sincronizar ambas ramas master(local y remoto) en gitkraken tienes que tener la rama master seleccionada.
